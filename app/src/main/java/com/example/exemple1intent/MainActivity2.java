@@ -15,6 +15,7 @@ public class MainActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
+
         t = findViewById(R.id.tres);
 
         String val1 = getIntent().getExtras().getString("v1");
